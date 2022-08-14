@@ -5,6 +5,7 @@ import CustomAppBar from "../../components/CustomAppBar";
 import InputAdornment from "@mui/material/InputAdornment";
 import "./style.css";
 import CustomTab from "../../components/CustomTab";
+import JobArea from "../../components/JobArea";
 
 
 const Jobs = () => {
@@ -12,7 +13,7 @@ const Jobs = () => {
   const tabItems = [{
     id : "1",
     label : "Jobs",
-    child : <p>This is for the jobs</p>
+    child : <JobArea/>
   },
   {
     id : "2",
@@ -70,6 +71,7 @@ const Jobs = () => {
           </Grid>
         </Grid>
       </section>
+      <br/>
       <section>
         <CustomTab tabItems={tabItems}/>
       </section>

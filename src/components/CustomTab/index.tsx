@@ -4,6 +4,7 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import { Box } from "@mui/material";
+import "./style.css";
 
 type CustomTabProps = {
   tabItems: { id: string; label: string; child: any }[];
@@ -27,11 +28,11 @@ const CustomTab: React.FC<CustomTabProps> = (props) => {
           centered
         >
           {tabItems.map((tabItem, index) => (
-            <Tab key = {index} label={tabItem.label} value={tabItem.id} />
+            <Tab key = {index} label={tabItem.label} value={tabItem.id} classes = {{root : "tab-list"}}/>
           ))}
         </TabList>
       </Box>
-      {tabItems.map((tabItem, index) => <TabPanel value={tabItem.id}>{tabItem.child}</TabPanel> ) }
+      {tabItems.map((tabItem, index) => <TabPanel value={tabItem.id} classes = {{root : "tab-panel"}}>{tabItem.child}</TabPanel> ) }
     </TabContext>
   );
 };

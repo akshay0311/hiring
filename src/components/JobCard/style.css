@@ -1,0 +1,18 @@
+.card-root {
+    width : 400px;
+    border : 1px solid rgb(198, 195, 195);
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.card-root div span {
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-root div em, i {
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+}
