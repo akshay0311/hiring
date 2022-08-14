@@ -1,0 +1,95 @@
+/* Banner Style */
+.banner {
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.jobs .banner-item-01 {
+  padding: 200px 0px;
+  width: 100%;
+  background-image: url(../../assets/images/heading-6-1920x500.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner .banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.banner .banner-text h4 {
+  color: #f33f3f;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.banner .banner-text h2 {
+  color: #fff;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: -30px;
+}
+
+/* Responsive Style */
+@media (max-width: 768px) {
+  .banner .banner-text {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .banner .banner-text h4 {
+    font-size: 22px;
+  }
+
+  .banner .banner-text h2 {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+  }
+  .banner-item-01,
+  .banner-item-02,
+  .banner-item-03 {
+    padding: 180px 0px;
+  }
+}
+
+.job-search {
+    margin-top: 60px;
+}
+
+.job-search-grid {
+    padding: 0 100px;
+}
+
+#outlined-adornment-what {
+    width: 300px;
+    float: right;
+}
+
+#outlined-adornment-where {
+    width: 300px;
+    float: left;
+}
+
+@media screen and (max-width : 850px) {
+    .job-search-grid {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    #outlined-adornment-what {
+        width: 100%;
+        float: none;
+    }
+    #outlined-adornment-where {
+        width: 100%;
+        float: none;
+    }
+   
+}

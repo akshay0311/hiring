@@ -1,0 +1,130 @@
+/* Banner Style */
+.banner {
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.home .banner-item-01 {
+  padding: 300px 0px;
+  background-image: url(../../assets/images/slider-image-1-1920x600.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner .banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.banner .banner-text h4 {
+  color: #f33f3f;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+
+.banner .banner-text h2 {
+  color: #fff;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* Responsive Style */
+@media (max-width: 768px) {
+  .banner .banner-text {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .banner .banner-text h4 {
+    font-size: 22px;
+  }
+
+  .banner .banner-text h2 {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+  }
+  .banner-item-01,
+  .banner-item-02,
+  .banner-item-03 {
+    padding: 180px 0px;
+  }
+}
+
+.home .job-listing {
+  padding: 70px 60px;
+}
+
+.home .job-listing-top span {
+  float: left;
+  font-size: 25px;
+}
+
+.home .job-listing-top b {
+  float: right;
+  margin-top: 10px;
+  color: #f33f3f;
+}
+
+.home .job-listing-top {
+  margin-bottom: 50px;
+}
+
+.home .divider {
+  margin-bottom: 40px;
+}
+
+.home .about-us {
+  padding: 60px;
+}
+
+.home .about-us-top {
+	margin-bottom: 50px;
+}
+
+.home .about-us-top span {
+  float: left;
+  font-size: 25px;
+}
+
+.home .happy-clients {
+  padding: 60px;
+}
+
+.happy-clients-top {
+  margin-bottom: 20px;
+}
+
+.happy-clients-top span{
+  font-size: 25px;
+}
+
+.contact-us {
+  background-color: #f7f7f7;
+  width: 1150px;
+  height: 100px;
+  margin : 0 auto;
+  border-radius: 5px;
+}
+
+.contact-us h2 {
+  font-size: 20px;
+}
+
+hr {
+  width: 1150px;
+  margin: 60px auto;
+  border: none;
+  border-top: 1px solid #E8E8E8;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 50px;
+}

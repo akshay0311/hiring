@@ -1,0 +1,49 @@
+.owl-theme {
+   width: 1150px;
+   margin: 0 auto;
+}
+.owl-theme .owl-item .owl-top{
+   position: relative;
+   height: 120px;
+   background-color: #f7f7f7;
+   text-align: center;
+}
+
+.owl-theme .owl-item .owl-top div {
+   position: absolute;
+   background-color: red;
+   height: 50px;
+   width: 50px;
+   display: inline-block;
+   top : 50%;
+   left : 50%;
+   transform: translate(-50%, -50%);
+}
+
+.owl-theme .owl-item i{
+   color:white;
+   margin-top: 15px;
+}
+
+@media screen and (max-width : 856px) {
+   .owl-theme {
+      width: 80%;
+   }
+}
+
+.owl-client {
+   margin-top: 40px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.owl-client span {
+   font-size: 20px;
+}
+
+.owl-client em{
+   font-style: italic;
+   color: #A0A0A0;
+   margin-top: 20px;
+}
